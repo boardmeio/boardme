@@ -1,7 +1,7 @@
 
 import {IGuide} from "./models/IGuide";
 
-const BOARDME_NOT_INSTALLED_ERROR: string = "boardme is not installed! Please visit the docs section on https://boardme.io and follow the installation instructions."
+const BOARDME_NOT_INSTALLED_ERROR: string = "boardme not found! The script is not installed, or you're trying to use it before importing it. Please visit the docs section on https://boardme.io and follow the installation instructions.";
 
 
 

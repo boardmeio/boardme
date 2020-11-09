@@ -2,9 +2,10 @@
 
 
 
+
 export interface IGuide {
     identifier: string,
     name: string,
-    onSubmit(): IGuide
-    onDismiss(): IGuide
+    onSubmit(callback: Function): IGuide
+    onDismiss(callback: Function): IGuide
 }
