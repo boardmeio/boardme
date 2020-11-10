@@ -1,6 +1,6 @@
 {
   "name": "boardme",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "boardme client API",
   "main": "build/Index.js",
   "types" : "build/index.d.ts",

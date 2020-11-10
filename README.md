@@ -31,9 +31,19 @@ bower install boardme --save
 ### Javascript
 
 ```javascript
-var boardme = require('boardme');
+var boardme = require("boardme");
 
-boardme.renderGuide( "guide-guid" )
+var guide =  boardme.renderGuide( "guide-identifier" );
+
+// Event listeners
+
+guide.onSubmit(function() {
+  console.log( "Guide has been submitted" );
+});
+
+guide.onSubmit(function() {
+  console.log( "Guide has been dismissed" );
+});
 ```
 
 
@@ -42,14 +52,26 @@ As library
 ```typescript
 import * as boardme from "boardme";
 
-boardme.renderGuide( "guide-guid" );
+const guide = boardme.renderGuide( "guide-identifier" );
+
+// Event listeners
+
+guide.onSubmit( () => console.log( "Guide has been submitted" ) );
+
+guide.onDismiss( () => console.log( "Guide has been dismissed" ) );
 ```
 
 As utility function
 ```typescript
-import { renderGuide } from 'boardme';
+import { renderGuide } from "boardme";
 
-renderGuide( "guide-guid" );
+const guide = renderGuide( "guide-guid" );
+
+// Event listeners
+
+guide.onSubmit( () => console.log( "Guide has been submitted" ) );
+
+guide.onDismiss( () => console.log( "Guide has been dismissed" ) );
 ```
 
 ### AMD

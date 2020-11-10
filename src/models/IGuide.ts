@@ -8,5 +8,7 @@ export interface IGuide {
     name: string,
     type: number,
     onSubmit(callback: Function): IGuide
-    onDismiss(callback: Function): IGuide
+    onDismiss(callback: Function): IGuide,
+    show(): IGuide,
+    hide(): IGuide
 }
