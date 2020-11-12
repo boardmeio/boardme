@@ -14,9 +14,9 @@ export function renderFlow(identifier: string): void {
 
 
 
-export function clear(identifier: string): void {
+export function clear(): void {
 
     if ( ! BoardmeUtils.isBoardmeInstalled() ) return;
 
-    return BoardmeUtils.getBoardme().clearFlows();
+    return BoardmeUtils.getBoardme().clear();
 }
