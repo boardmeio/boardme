@@ -4,6 +4,6 @@
 
 
 export interface IHoverTipOptions {
-    position: string,
-    displayDelay: number
+    position?: string,
+    displayDelay?: number
 }
