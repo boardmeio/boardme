@@ -1,6 +1,6 @@
 # boardme
 
-A client side library for using the boardme API.
+A client side library for using the boardme API (types included).
 
 
 [boardme](https://boardme.io) is a user onboarding SaaS that integrates seamlessly with any website or application. It helps users learn how an app works and guides them to immediate value.
