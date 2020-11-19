@@ -1,9 +1,9 @@
 {
   "name": "boardme",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "boardme client API",
   "main": "build/Index.js",
-  "types" : "build/index.d.ts",
+  "types" : "build/Index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
