@@ -5,6 +5,7 @@ const boardmeLoadListeners: Function[] = [];
 let boardmeCheckInterval: any;
 
 
+
 export function onLoad(callback: Function): void {
     if ( BoardmeUtils.isBoardmeInstalled() ) return BoardmeUtils.getBoardme().onLoad( callback );
 
@@ -27,5 +28,3 @@ export function onLoad(callback: Function): void {
 
     }, 1000);
 }
-
-
