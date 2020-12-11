@@ -16,6 +16,13 @@ export {
 
 
 
+export enum GuideBehavior {
+    AUTO = "auto",
+    MANUAL = "manual"
+}
+
+
+
 export {
     user
 } from "./api/User";
@@ -25,5 +32,3 @@ export {
 export {
     event
 } from "./api/Event";
-
-

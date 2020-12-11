@@ -1,5 +1,5 @@
 
-
+import {GuideBehavior} from "../Index";
 
 
 
@@ -12,10 +12,4 @@ export interface IGuide {
     show(): IGuide;
     hide(): IGuide;
     setBehavior(behavior: GuideBehavior): void;
-}
-
-
-export enum GuideBehavior {
-    AUTO = "auto",
-    MANUAL = "manual"
 }
